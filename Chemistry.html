@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game 2</title>
+    <link rel="icon" href="images2/ncertlogo.png">
+    <!-- <link rel="icon" href="images/background.svg"> -->
+    <link rel="stylesheet" href="chemgame.css">
+    <link rel="stylesheet" href="chemresponsive.css">
+</head>
+
+<body>
+
+    <!-- Front Page Content -->
+    <div id="overlay">
+        <div id="front-page">
+            <h1>Game 2-The Solubility Quest</h1>
+            <div class="front-content rules-box">
+                <p>Rules of the Game <span>:</span></p>
+                <ul>
+                    <li>Earn 10 points for every water-soluble substance you click.</li>
+                    <li>Lose 5 points if you click on a water-insoluble substance.</li>
+                    <li>The game runs for 30 seconds--score as high as you can before time run out!</li>
+                </ul>
+                <div class="box-btn">
+                    <button class="button-83" id="play-button" role="button">Play</button>
+                    <button class="button-83 but2" id="exit-button" role="button">Exit</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Game Content -->
+    <div id="game-content" style="display: none;">
+        <div id="overlay" class="game-main-div">
+            <div id="text-content">
+                <h1>Solubility Quest</h1>
+                <div id="data">
+                    <div id="score">Score: <span id="live_score">0</span></div>
+                    <div id="timer">Timer: <span id="time_left">30</span></div>
+                </div>
+            </div>
+            <img id="ncert_img" src="images2/ncertlogo.png" alt="">
+        </div>
+        <br><br>
+        <div id="board"></div>
+        <div id="dialogue-box">
+
+            <div id="timer_call">
+                <h1 style="font-size: 40px;">⏱️</h1>
+                <h1>Time is up!</h1>
+            </div>
+            <div id="wrong_answer">
+                <h1>Game over!</h1>
+                <h4>You clicked on a </h4> <span id="acid"></span><br>
+            </div>
+
+            <h3 class="your_score">Your Score is: </h3><span id="final_score"></span><br><br>
+
+            <div id="factbox">
+                <div>
+                    <h2>Correct</h2>
+                    <p>Salt</p>
+                    <p>Sugar</p>
+                    <p>Milk</p>
+                    <p>Lemon Juice</p>
+                    <p>Glucose</p>
+                    <p>Ink</p>
+                    <p>Coffee</p>
+                </div>
+
+                <div>
+                    <h2>Incorrect</h2>
+                    <p>Chalk</p>
+                    <p>Sand</p>
+                    <p>Candle</p>
+                    <p>Plastic</p>
+                    <p>Rubber</p>
+                    <p>Glass</p>
+                    <p>Oil</p>
+                </div>
+            </div>
+
+            <div class="restart_btn">
+                <button class="button-83" id="restart" role="button" style="margin-right: 10px;">Restart</button>
+                <button class="button-83 but2" id="exit" role="button" style="margin-left: 10px;">Exit</button>
+            </div>
+
+        </div>
+    </div>
+
+    
+
+
+    <script src="chemscript.js"></script>
+</body>
+
+</html>

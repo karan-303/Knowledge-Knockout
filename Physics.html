@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game 3</title>
+    <link rel="icon" href="images2/ncertlogo.png">
+    <!-- <link rel="icon" href="images2/background.svg"> -->
+    <link rel="stylesheet" href="magnet.css">
+    <link rel="stylesheet" href="magnetresponsive.css">
+</head>
+
+<body>
+
+    <!-- Front Page Content -->
+    <div id="overlay">
+        <div id="front-page">
+            <h1>Game 3-The Magnetic Quest</h1>
+            <div class="front-content rules-box">
+                <p>Rules of the Game <span>:</span></p>
+                <ul>
+                    <li>Earn 10 points for every material attracted by magnet you click.</li>
+                    <li>Lose 5 points if you click on an material that is not attracted by magnet.</li>
+                    <li>The game runs for 30 seconds--score as high as you can before time run out!</li>
+                </ul>
+                <div class="box-btn">
+                    <button class="button-83" id="play-button" role="button">Play</button>
+                    <button class="button-83 but2" id="exit-button" role="button">Exit</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Game Content -->
+    <div id="game-content" style="display: none;">
+        <div id="overlay" class="game-main-div">
+            <div id="text-content">
+                <h1>Magnetic Quest</h1>
+                <div id="data">
+                    <div id="score">Score: <span id="live_score">0</span></div>
+                    <div id="timer">Timer: <span id="time_left">30</span></div>
+                </div>
+            </div>
+            <img id="ncert_img" src="images2/ncertlogo.png" alt="">
+        </div>
+        <br><br>
+        <div id="board"></div>
+        <div id="dialogue-box">
+
+            <div id="timer_call">
+                <h1 style="font-size: 40px;">⏱️</h1>
+                <h1>Time is up!</h1>
+            </div>
+            <div id="wrong_answer">
+                <h1>Game over!</h1>
+                <h4>You clicked on a </h4> <span id="rich"></span><br>
+            </div>
+
+            <h3 class="your_score">Your Score is: </h3><span id="final_score"></span><br><br>
+           
+            <div id="factbox">
+                <div>
+                    <h2>Correct</h2>
+                    <p>Iron nail</p>
+                    <p>Metal key</p>
+                    <p>Needle</p>
+                    <p>Safety Pin</p>
+                    <p>Iron wire</p>
+                    
+                </div>
+
+                <div>
+                    <h2>Incorrect</h2>
+                    <p>Wodden Door</p>
+                    <p>Copper Wire</p>
+                    <p>Pen</p>
+                    <p>Glass</p>
+                    <p>Coin</p>
+                    <p>Handkercheif</p>
+                    <p>shirt</p>
+                </div>
+            </div>
+
+            <div class="restart_btn">
+                <button class="button-83" id="restart" role="button" style="margin-right: 10px;">Restart</button>
+                <button class="button-83 but2" id="exit" role="button" style="margin-left: 10px;">Exit</button>
+            </div>
+
+        </div>
+    </div>
+
+    
+
+
+    <script src="magnetscript.js"></script>
+</body>
+
+</html>

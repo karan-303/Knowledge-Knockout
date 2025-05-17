@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background: url("images/bg1.jpg");
+    color: white;
+    height: 100%;
+    overflow: hidden;
+    /* border: 2px solid red; */
+}
+#ncert_img {
+    position: absolute;
+    width: 80px;
+    top: 20px;
+    left: 20px;
+}
+
+#title_img{
+    margin-top: 50px;
+    width: 50%;
+    height: 60px;
+
+}
+#container{
+    margin-top: 5%;
+    height: 60%;
+    width: 100%;
+    display: flex;
+/*     border: 2px solid red; */
+}
+#boy_img{
+    margin-top: 5%;
+    height: 90%;
+    width: 40%;
+    margin-left: 300px;
+    margin-right: 50px;
+}
+#girl_img{
+    margin-top: 5%;
+    height: 90%;
+    width: 40%;
+    margin-left: 80px;
+    margin-right: 150px;
+}
+
+#selectgame{
+    height: 35%;
+    width: 100%;
+    margin-left: 80%;
+    display: table-column;
+    /* border: 1px solid green; */
+}
+
+/* button{
+    border: none;
+    background: none;
+    cursor: pointer;
+} */
+
+a img{
+    height: 35%;
+    width: 100%;
+    display: table-column;   
+    cursor: pointer;
+    /*     border: 2px solid white;*/ 
+}

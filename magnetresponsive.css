@@ -1,0 +1,405 @@
+/* Media queries for responsiveness */
+@media (max-width: 1440px) {
+    #factbox{
+        height: 35%;
+        width: 100%;
+    }
+
+    #board {
+        width: 50%;
+        height: 70%;
+        margin-top: 10%;
+/*         border: 2px solid red;
+ */    }
+    /* #timer_call{
+    
+    } */
+
+    /* #dialogue-box {
+        height: 40%;
+    } */
+
+    #front-page {
+        height: 70%;
+    }
+
+    #front-page h1 {
+        margin-top: 5%;
+        padding-bottom: 20px;
+    }
+
+    .box-btn {
+        width: 40%;
+    }
+    .restart_btn{
+        height: 30%;
+    }
+}
+
+@media (max-width: 1280px) {
+    #factbox{
+        height: 30%;
+        width: 36%;
+    }
+
+
+    .rules-box {
+        width: 85%;
+    }
+
+    .rules-box p {
+        font-size: 2em;
+    }
+
+    #board {
+        /* prev code  */
+        /* width: 44%; */
+
+        /* new code  */
+        width: 60%;
+        height: 75%;
+    }
+
+    #front-page {
+        width: 65%;
+    }
+
+}
+
+@media (max-width: 1180px) {
+    #factbox{
+        height: 30%;
+        width: 36%;
+    }
+
+    .rules-box {
+        width: 90%;
+    }
+
+    #board {
+        width: 60%;
+        /* border: 2px solid red; */
+    }
+
+
+    #dialogue-box {
+        height: 35%;
+        top: 30%;
+    }
+
+}
+
+@media (max-width: 1024px) {
+    #factbox{
+        height: 30%;
+        width: 35%;
+    }
+    #front-page {
+        width: 75%;
+        padding: 30px;
+    }
+
+    .rules-box {
+        width: 85%;
+        padding: 15px;
+        margin-top: 5%;
+    }
+
+    .buttons-box {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    #board {
+        width: 70%;
+    }
+
+    .rules-box p {
+        font-size: 2em;
+    }
+
+    #dialogue-box {
+        height: 70%;
+        top: 10%;
+        left: 21%;
+        width: 60%;
+    }
+}
+
+@media (max-width: 768px) {
+    #factbox{
+        height: 30%;
+        width: 36%;
+    }
+    .rules-box {
+        width: 85%;
+        padding: 6%;
+        margin-top: 8%;
+
+    }
+
+    .box-btn {
+        width: 50%;
+    }
+
+    #board {
+        width: 80%;
+        margin-top: 15%;
+    }
+
+    #dialogue-box {
+        height: 70%;
+        width: 80%;
+        top: 10%;
+        left: 10%;
+    }
+
+    #exit {
+        margin-right: 4.5%;
+    }
+
+    #front-page {
+        /* border: 2px solid red; */
+        width: 85%;
+    }
+
+    #front-page h1 {
+        padding-bottom: 0px;
+        margin-top: 5%;
+    }
+}
+
+@media (max-width: 480px) {
+    #factbox{
+        height: 20%;
+        width: 36%;
+    }
+    #front-page {
+        width: 90%;
+        height: 66%;
+        padding: 15px;
+    }
+
+    #front-page h1 {
+        margin-top: 15%;
+    }
+
+    .rules-box {
+        height: 80%;
+        padding: 1%;
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 8%;
+    }
+
+    .rules-box p {
+        margin-top: 10%;
+    }
+
+    .rules-box ul {
+        width: 85%;
+
+    }
+
+    .rules-box ul li {
+        margin-top: 6%;
+        line-height: 148%;
+    }
+
+    #board {
+        /* border: 2px solid red; */
+        width: 90%;
+        margin-top: 20%;
+        /* height: 100%; */
+    }
+
+    #board div {
+        /* width: 100%; */
+        /* margin: auto; */
+        /* width: calc(33% - 8px); */
+        /* height: auto; */
+        width: 33%;
+        /* border: 2px solid red; */
+    }
+
+    #board div {
+        width: 100%;
+        /* height: 200px; */
+        /* border: 2px solid rgb(59, 142, 29); */
+    }
+
+    #dialogue-box {
+        width: 80%;
+        height: 50%;
+        margin: auto;
+        overflow: hidden;
+    }
+
+    #timer_call {
+        margin-top: 14%;
+        margin-bottom: 5%;
+    }
+    #factbox{
+        height: 80px;
+        width: 150px;
+    }
+
+
+
+}
+
+@media (max-width: 428px) {
+    #factbox{
+        height: 20%;
+        width: 38%;
+    }
+    #front-page {
+        width: 90%;
+        padding: 15px;
+        height: 80%;
+    }
+
+    #front-page h1 {
+        margin-top: 6%;
+    }
+
+    .rules-box {
+        padding: 1%;
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 8%;
+    }
+
+    .rules-box p {
+        margin-top: 10%;
+
+    }
+
+    .rules-box ul {
+        width: 85%;
+
+    }
+
+    .rules-box ul li {
+        margin-top: 6%;
+        line-height: 148%;
+    }
+
+    #board {
+        width: 90%;
+        margin-top: 16%;
+        /* height: 100%; */
+        /* border: 2px solid red; */
+    }
+
+    #board div {
+        margin-left: 1%;
+        margin-right: 1%;
+        width: 100%;
+        /* height: 180px; */
+    }
+
+    #dialogue-box {
+        width: 90%;
+        height: 60%;
+        margin: auto;
+        margin-left: -20%;
+        left: 25%;
+    }
+
+    #timer_call {
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    #ncert_img {
+        /* border: 2px solid red; */
+        width: 15%;
+    }
+    .restart_btn{
+        height: 55%;
+    }
+
+}
+
+@media (max-width: 390px) {
+    
+    #front-page {
+        width: 90%;
+        padding: 15px;
+    }
+
+    #front-page h1 {
+        margin-top: 6%;
+    }
+
+    .rules-box {
+        padding: 1%;
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 8%;
+    }
+
+    .rules-box p {
+        margin-top: 10%;
+
+    }
+
+    .rules-box ul {
+        width: 85%;
+
+    }
+
+    .rules-box ul li {
+        margin-top: 6%;
+        line-height: 148%;
+    }
+
+    #board {
+        width: 90%;
+        margin-top: 16%;
+        /* height: 100%; */
+        /* border: 2px solid red; */
+    }
+
+    #board div {
+        margin-left: 1%;
+        margin-right: 1%;
+        width: 100%;
+        /* height: 200px; */
+    }
+
+    #dialogue-box {
+        height: 68%;
+        width: 90%;
+        margin: auto;
+        margin-left: -20%;
+    }
+
+    #timer_call {
+        margin-top: 14%;
+        margin-bottom: 5%;
+    }
+
+    #ncert_img {
+        /* border: 2px solid red; */
+        width: 15%;
+    }
+    #factbox{
+        height: 130px;
+        width: 118px;
+    }
+    .restart_btn{
+        height: 45%;
+    }
+
+}
